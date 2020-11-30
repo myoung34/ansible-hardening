@@ -1,0 +1,5 @@
+- hosts: localhost
+  roles:
+    - ansible-hardening
+  vars:
+    security_rhel7_enable_chrony: no
